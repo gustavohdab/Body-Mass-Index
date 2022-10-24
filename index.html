@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- meta -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Body Mass Index</title>
+    
+    <!-- styles -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- scripts -->
+    <script src="js/script.js" defer type="module"></script>
+</head>
+<body>
+    <div class="alert-error">
+        Enter only numbers.
+    </div>
+    <div class="container">
+        <main class="card">
+            <form action="">
+                <h1 class="title">BMI Calculator</h1>
+                    <div class="input-wrapper">
+                        <label for="weight">Weight(kg)</label>
+                        <input 
+                        type="text" 
+                        id="weight"
+                        placeholder="60">
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="height">Height(cm)</label>
+                        <input 
+                        id="height"
+                        type="text"
+                        placeholder="165">
+                    </div>
+                    <button type="submit">
+                        Your BMI 
+                        <img src="assets/arrow.svg" alt="arrow svg image">
+                    </button>
+            </form>
+        </main>
+    </div>
+
+    <div class="modal-wrapper">
+        <div class="modal card">
+            <h2 class="title">
+                <button class="close">
+                    <img src="assets/close.svg" alt="close svg popup">
+                </button>
+                <span>Your BMI is 28</span>
+            </h2>
+
+        </div>
+    </div>
+
+</body>
+</html>
