@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</a>
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
 </p>
 
 <br>
@@ -16,12 +16,12 @@
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML e CSS
-- JavaScript (ES6), modules.  
+- JavaScript(ES6), modules.
 - DOM
 
 ## 💻 Projeto
 
-BMI calculator (Calculadora de IMC) atualizando elementos/eventos HTML via DOM.
+BMI calculator atualizando elementos/eventos HTML via DOM.
 
 ---
 
